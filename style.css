@@ -1,0 +1,63 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: Poppins,ui-sans-serif,system-ui,sans-serif;
+
+}
+/* contenitore trasparente del body */
+.containerbody{
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 70px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 1000px;
+  height: 700px;
+  padding: 100px;
+  border-radius: 20px;
+}
+
+/* logo e titolo */
+header{
+  text-align:center;
+  color: rgb(0, 255, 0);
+  font-size: 110%;
+}
+/* impostazioni logo */
+header > img{
+  width: 30%;
+  height:auto;
+}
+/* impostazioni barra navigazione */
+.navigation{
+  background-color: lime;
+  width: auto;
+  height: 30px;
+  text-align: center;
+  padding-top:5px;
+}
+/* impostazioni del corpo principale */
+.nomeutente{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.informazioni{
+  font-size: 20px;
+  color: white;
+}
+.carica25, .carica50, .carica75{
+  border-radius: 5px;
+  height: 30px;
+}
+.carica50{
+  background-color: rgb(220, 160, 0);
+  width: 375px;
+}
+.carica75{
+  background-color: rgb(0,190,0);
+  width: 700px;
+}
+.carica25{
+  background-color: #A71D31;
+  width: 220px;
+}
